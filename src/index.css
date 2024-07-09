@@ -1,0 +1,167 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Header Design */
+
+.header{
+  display: flex;
+  background-color:whitesmoke;
+  box-shadow: 1px 1px 5px black;
+  }
+.image{
+  padding-top: 5px;
+  margin-left: 150px;
+  width: 100px;
+  height: 80px;    
+}
+.nav-item >ul{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+  margin-left: 480px;
+}
+.nav-item >ul>li{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  justify-content: space-between;
+  margin-left: 60px;
+  font-size: 20px;
+  list-style-type: none;
+}
+
+.body{
+  margin-top: 40px;
+}
+
+/* Search and Top resturant design     */
+input{
+  margin-left: 70px;
+  padding: 3px;
+  padding-left: 18px;
+  width: 250px;
+  font-size: 18px;
+ border:2px solid black;
+ border-radius:5px 0 0 5px;
+
+}
+input:focus{
+  border-color: coral;
+}
+.btn{
+  padding: 3px;
+  width: 70px;
+  height: 36px;
+  font-size: 17px;
+  font-weight: bold;
+   /* margin-left: 5px;  */
+  background-color: red;
+  color: #f5f5f5;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: none;
+}
+.btn:hover{
+  background-color:#333;
+}
+.res-filter{
+   margin-left: 800px; 
+  right: 6rem;
+  background-color: indigo;
+  width: 250px;
+  height: 35px;
+  color:white;
+  font-size: 18px;
+  border: 2px solid white;
+   border-radius: 10px; 
+}
+.res-filter:hover{
+  background-color: brown;
+}
+
+
+ /* Resturant Card Design */
+ .card{
+  display: flex;
+  flex-wrap: wrap;
+ margin-top: 30px;
+}
+.rescard{
+ background-color:#f5f5f5;
+  margin-left: 50px;  
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+  box-shadow: 2px 2px 7px black;
+ 
+}
+.rescard:hover{
+  box-shadow:inset -3px -3px 7px rgb(231, 155, 155), inset 3px 3px 7px rgb(231, 155, 155);
+}
+.imge{
+ 
+  height: 150px;
+  width: 300px;
+  border-radius:10px 10px 0 0;
+  position: relative;
+  object-fit: cover;
+}
+
+.name{
+  font-weight: bolder;
+  margin-left: 3px;
+  margin-top: 5px;
+  word-wrap: normal;
+    font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.details{
+ 
+  display: flex;
+  flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+}
+.details.item{
+ 
+  margin-left: 5px;
+word-wrap: break-word;
+  font-size: 20px;
+  font-weight: 700;
+  color: dimgray;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ 
+}
+.rating{
+  
+  font-size: 14px;
+border-radius: 4px;
+background-color: #0a6d0acc;
+color: #fffdfd;
+font-weight: 700;
+text-align: center;
+padding-left: 2px;
+padding-right: 2px;
+margin-right: 3px;
+}
+.deliverytime{
+  font-size: 18px;
+  font-weight:800 ;
+  color: black ;
+}
+
+/* Shimmer card design */
+.shimmer-continer{
+  display: flex;
+  flex-wrap: wrap;
+ margin-top: 20px;
+}
+.shimmer-cards{
+  background-color:#f5f5f5;
+  margin-left: 50px;  
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 7px black;
+  margin-bottom: 15px;
+} 
