@@ -34,7 +34,7 @@ return(
                 <div className="w-3/12 p-4">
                     <div className="absolute">
                     {cartItems.length>0 && <button  className="bg-white text-green font-bold text-xl rounded-lg px-2 py-2 text-green-500" onClick={handleremoveCart}>‒</button>}
-                        <button onClick={()=> HandleAddItem(item)} className="p-2 ml-[40px] mt-[110px] rounded-lg bg-white font-bold text-green-500  border-none hover:bg-slate-600">Add +</button>
+                        <button onClick={()=> HandleAddItem(item)} className="p-2 ml-[40px] mt-[80px] rounded-lg bg-white font-bold text-green-500  border-none hover:bg-slate-600">Add +</button>
                        
                     </div>
                     <img src={CDN_URL+item.card.info.imageId} className="w-full"/>
